@@ -2,14 +2,15 @@ _**21 School/Ecole 42** Project_
 
 # Philosophers
 
-Problem statement - en.subject.pdf
+Problem statement: [en.subject.pdf](https://github.com/mkoch21/philosophers/blob/main/en.subject.pdf)
+
 Dining Philosophers problem, multi-threads programming with the use of mutex 
 
 ## Installation and execution
 ```
 cd philo
 make
-./philo 4 410 200 200 5
+./philo 4 500 200 200 5
 ```
 arguments: ```number_of_philosophers time_to_die time_to_eat time_to_sleep [number_of_times_each_philosopher_must_eat]```
 *   ```number_of_philosophers```: The number of philosophers and also the number
